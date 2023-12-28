@@ -1,0 +1,88 @@
+.big {
+    font-size: 600px;
+    position: absolute;
+    text-align: center; 
+    height: 1%;
+    width: 100%;
+    color: #fffaf0;
+    }
+       
+.square {
+width:550px; 
+height:550px; 
+background:rgb(30, 65, 87);
+border-radius: 10%;
+bottom: 50%;
+position: relative;
+position: fixed;
+left: 50%; 
+margin-right: -50%;
+transform: translate(-50%, 50%);      
+}
+
+.square2 {
+width:80px; 
+height:30px; 
+background:rgb(255, 255, 255);
+bottom: 95%;
+position: relative;
+position: fixed;
+
+}
+
+.text {
+font-size: 200px;
+position: fixed;
+margin-top: 0%;
+}
+.text2 {
+font-size: 150px;
+position: fixed;
+margin-top: 0%;
+}
+.yes {
+font-size: 150px;
+position: fixed;
+top: 400px;
+color: black;
+}
+.no {
+font-size: 150px;
+position: fixed;
+top: 400px;
+left: 500px;
+color: black;
+}
+
+.pot {
+
+position: fixed;
+-webkit-animation: linear infinite;
+-webkit-animation-name: run;
+-webkit-animation-duration: 1.5s;
+}
+@-webkit-keyframes run {
+0% {
+  left: 0;
+}
+50% {
+  left: 65%;
+}
+100% {
+  left: 0;    
+}
+}
+
+    .moai {
+        transition: transform .4s;
+        position: relative;
+        position: fixed;
+        left: 50%; 
+        top: 40%;
+        transform: translate(-50%, 50%);      
+        }
+        
+        img:hover{
+        transform: scale(8)
+        
+        }

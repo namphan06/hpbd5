@@ -1,0 +1,17 @@
+.text2 {
+    font-size: 150px;
+    position: fixed;
+    margin-top: 0%;
+}
+.moai {
+    transition: transform .4s;
+    position: relative;
+    position: fixed;
+    left: 50%; 
+    top: 40%;
+    transform: translate(-50%, 50%);      
+    }
+    img:hover{
+        transform: scale(10)
+        
+        }    
